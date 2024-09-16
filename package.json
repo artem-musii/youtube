@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@nestjs/mapped-types": "*"
+  },
+  "name": "youtube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:artem-musii/youtube.git",
+  "author": "Artem Musii <musiy.artem@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
