@@ -1,7 +1,10 @@
+import { useAuth } from "@/app/hooks/useAuth";
 import React, { FC } from "react";
 
 const Sidebar: FC = () => {
-	return (
+	const { user } = useAuth();
+
+	return user ? (
 		<section className="sidebar">
 			<a href="/" className="logo">
 				<img src="/img/common/logo.png" alt="Youtube" />
@@ -105,7 +108,7 @@ const Sidebar: FC = () => {
 			</a>
 			<div className="copy">© 2020 Youtube, LLC</div>
 		</section>
-	);
+	) : null;
 };
 
 export default Sidebar;

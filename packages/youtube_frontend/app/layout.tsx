@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./global.sass";
+import "./global.scss";
 
 export const metadata: Metadata = {
 	title: "Youtube",
