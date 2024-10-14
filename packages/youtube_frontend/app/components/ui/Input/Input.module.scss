@@ -1,0 +1,16 @@
+.input {
+	@apply relative mb-5;
+
+	> input {
+		@apply py-2 w-full border-x-0 border-t-0 border-b border-b-gray;
+
+		&::placeholder {
+			color: gray;
+		}
+	}
+}
+
+.error {
+	@apply absolute -bottom-4 left-0 w-full text-primary;
+	font-size: 0.6rem;
+}

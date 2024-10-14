@@ -1,0 +1,5 @@
+.button {
+	@apply border-none cursor-pointer rounded-md py-1 px-5
+bg-primary font-bold text-white bg-opacity-100 
+	transition-colors duration-300 hover:bg-opacity-60;
+}

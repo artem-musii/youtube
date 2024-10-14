@@ -1,3 +1,18 @@
 .wrapper {
 	@apply relative inline-flex;
 }
+
+.form {
+	@apply block shadow-2xl absolute right-2 animate-scaleIn
+	w-56 bg-solidWhite rounded-xl z-20 py-3 px-2;
+	top: calc(100% + 0.5rem);
+}
+
+.buttons_wrapper {
+	@apply flex justify-center mt-3 items-center gap-6;
+}
+
+.register {
+	@apply block text-sm opacity-80 h-full transition-colors duration-300
+	hover:opacity-40;
+}
